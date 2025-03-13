@@ -1,0 +1,23 @@
+/* src/components/IncidentResponseCard.css */
+
+.incident-response-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .incident-response-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .incident-response-card h2 {
+    margin-top: 0;
+  }
+  
+  .incident-response-card p {
+    margin-bottom: 0;
+  }
